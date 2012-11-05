@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <VideoView
+        android:id="@+id/myvideoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:screenOrientation="landscape" >
+    </VideoView>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#80FFFFFF"
+        android:layout_gravity="bottom"
+        android:singleLine="true"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="11sp" />
+</FrameLayout>
